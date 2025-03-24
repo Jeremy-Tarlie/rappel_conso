@@ -14,6 +14,8 @@ Cette application Python permet de consulter la base de données RappelConso, qu
 - Modules requis :
   - `requests`
   - `json`
+  - `sys`
+  - `time`
 
 ## Installation
 

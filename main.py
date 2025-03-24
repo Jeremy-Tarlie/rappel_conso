@@ -1,10 +1,9 @@
 import requests
 import json
-from datetime import datetime
 import sys
 import time
 
-def verifier_connexion_internet():
+def verifier_api():
     try:
         test_url = "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/rappelconso0/records"
         response = requests.get(test_url, timeout=5)
